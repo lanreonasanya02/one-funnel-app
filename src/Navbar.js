@@ -7,6 +7,29 @@ import camera from "./images/camera.jpg";
 import play from "./images/play.png";
 
 const Navbar = () => {
+  const countDown = () => {
+    const countDate = new Date("April 17, 2022 09:50:00").getTime();
+    const today = new Date().getTime();
+    const difference = countDate - today;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(difference / day);
+    const textHour = Math.floor((difference % day) / hour);
+    const textMinute = Math.floor((difference % hour) / minute);
+    const textSecond = Math.floor((difference % minute) / second);
+
+    document.querySelector(".day").textContent = textDay;
+    document.querySelector(".hour").textContent = textHour;
+    document.querySelector(".minute").textContent = textMinute;
+    document.querySelector(".second").textContent = textSecond;
+  };
+
+  setInterval(countDown, 1000);
+
   return (
     <>
       <nav className="navbar">
@@ -14,34 +37,18 @@ const Navbar = () => {
           <div className="col-md-6 text-center logo">
             <img src={logo} alt="logo" />
             <div className="links links-1">
-              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-                Members
-              </a>
-              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-                Affiliates
-              </a>
-              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-                Successes
-              </a>
-              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-                Support
-              </a>
+              <a href="#">Members</a>
+              <a href="#">Affiliates</a>
+              <a href="#">Successes</a>
+              <a href="#">Support</a>
             </div>
           </div>
 
           <div className="col-md-6 links links-2 text-center d-none d-lg-block">
-            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-              Join
-            </a>
-            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-              Members Login
-            </a>
-            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-              Success Stories
-            </a>
-            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-              Support
-            </a>
+            <a href="#">Join</a>
+            <a href="#">Members Login</a>
+            <a href="#">Success Stories</a>
+            <a href="#">Support</a>
           </div>
         </div>
       </nav>
@@ -78,24 +85,24 @@ const Navbar = () => {
         </div>
         <div className="col-md-5 col-12 section text-center">
           <h3 className=" text-white">
-            The Next 'ONE FUNNEL AWAY' Challenge Starts On Apr 4th...
+            The Next 'ONE FUNNEL AWAY' Challenge Starts On Apr 17th...
           </h3>
           <img src={sectionOne} alt="section-image" width="100%" />
           <div className="timer text-white text-center">
             <div>
-              <h3 className="p-3">04</h3>
+              <h3 className="p-3 day">00</h3>
               <p className="text-muted">DAYS</p>
             </div>
             <div>
-              <h3 className="p-3">18</h3>
+              <h3 className="p-3 hour">00</h3>
               <p className="text-muted">HOURS</p>
             </div>
             <div>
-              <h3 className="p-3">45</h3>
+              <h3 className="p-3 minute">00</h3>
               <p className="text-muted">MINUTES</p>
             </div>
             <div>
-              <h3 className="p-3 ">15</h3>
+              <h3 className="p-3 second">00</h3>
               <p className="text-muted">SECONDS</p>
             </div>
           </div>
