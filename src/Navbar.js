@@ -14,18 +14,34 @@ const Navbar = () => {
           <div className="col-md-6 text-center logo">
             <img src={logo} alt="logo" />
             <div className="links links-1">
-              <a href="#">Members</a>
-              <a href="#">Affiliates</a>
-              <a href="#">Successes</a>
-              <a href="#">Support</a>
+              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+                Members
+              </a>
+              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+                Affiliates
+              </a>
+              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+                Successes
+              </a>
+              <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+                Support
+              </a>
             </div>
           </div>
 
           <div className="col-md-6 links links-2 text-center d-none d-lg-block">
-            <a href="#">Join</a>
-            <a href="#">Members Login</a>
-            <a href="#">Success Stories</a>
-            <a href="#">Support</a>
+            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+              Join
+            </a>
+            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+              Members Login
+            </a>
+            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+              Success Stories
+            </a>
+            <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+              Support
+            </a>
           </div>
         </div>
       </nav>
