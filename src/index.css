@@ -18,16 +18,11 @@ body {
 
 .navbar a {
   text-decoration: none;
-  padding-left: 2rem;
   color: #fff;
 }
 
 /* Media Queries */
 @media (min-width: 992px) {
-  .navbar .logo {
-    justify-content: flex-start;
-  }
-
   .navbar img {
     width: 30%;
   }
@@ -36,8 +31,17 @@ body {
     display: none;
   }
 
-  .navbar .links {
-    text-align: end;
+  .navbar .links-2 a {
+    margin-right: 10px;
+  }
+
+  .navbar .links-2 {
+    border: 2px solid red;
+  }
+
+  .navbar {
+    border: 2px solid yellow;
+    justify-content: space-between;
   }
 
   .play {
@@ -66,6 +70,12 @@ header .image-1 {
 }
 
 @media (max-width: 575px) {
+  .navbar .links a {
+    justify-content: space-between;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+
   .section-one .section-image {
     background-image: url(./images/camera.jpg);
     width: 100%;
@@ -89,7 +99,7 @@ header .image-1 {
 
   .section-one .section-image > h3 {
     margin-top: 3rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
     font-size: 1rem;
     text-align: center;
   }

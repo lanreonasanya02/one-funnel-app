@@ -34,7 +34,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="row">
-          <div className="col-md-6 text-center logo">
+          <div className="col-md-6 text-center text-md-start logo">
             <img src={logo} alt="logo" />
             <div className="links links-1">
               <a href="#">Members</a>
@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="col-md-6 links links-2 text-center d-none d-lg-block">
+          <div className="col-md-6 links links-2 text-center text-md-end d-none d-lg-block">
             <a href="#">Join</a>
             <a href="#">Members Login</a>
             <a href="#">Success Stories</a>
