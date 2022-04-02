@@ -6,52 +6,14 @@ body {
   background-color: #00296b;
 }
 
-.navbar {
+.navbar-1 {
   border-bottom: 2px dashed #fff;
   margin-bottom: 3rem;
 }
 
-.navbar img {
-  width: 40%;
-  margin-bottom: 1rem;
-}
-
-.navbar a {
+.navbar-1 a {
   text-decoration: none;
   color: #fff;
-}
-
-/* Media Queries */
-@media (min-width: 992px) {
-  .navbar img {
-    width: 30%;
-  }
-
-  .navbar .links-1 {
-    display: none;
-  }
-
-  .navbar .links-2 a {
-    margin-right: 10px;
-  }
-
-  .navbar .links-2 {
-    border: 2px solid red;
-  }
-
-  .navbar {
-    border: 2px solid yellow;
-    justify-content: space-between;
-  }
-
-  .play {
-    transform: translateY(-17rem);
-    margin-left: 17rem;
-  }
-
-  .section-one .section-image > h3 {
-    margin-top: -7rem;
-  }
 }
 
 header .image-1 {
@@ -67,42 +29,6 @@ header .image-1 {
 
 .section-one {
   margin-top: 1rem;
-}
-
-@media (max-width: 575px) {
-  .navbar .links a {
-    justify-content: space-between;
-    margin-right: 10px;
-    font-size: 13px;
-  }
-
-  .section-one .section-image {
-    background-image: url(./images/camera.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
-  }
-
-  .play {
-    margin-left: 9rem;
-    margin-top: 3rem;
-  }
-
-  .section-one .section {
-    background-color: #00285c;
-    margin: 0;
-    padding: 0;
-    margin-top: 6rem;
-    padding-top: 2rem;
-  }
-
-  .section-one .section-image > h3 {
-    margin-top: 3rem;
-    padding-top: 3rem;
-    font-size: 1rem;
-    text-align: center;
-  }
 }
 
 span {
@@ -148,4 +74,75 @@ span {
   border-bottom: 4px solid #e84d35;
   border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 4rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+  .navbar-1 img {
+    width: 30%;
+    margin-left: 1rem;
+  }
+
+  .navbar-1 .links-1 {
+    display: none;
+  }
+
+  .navbar-1 .links-2 a {
+    margin-right: 2rem;
+  }
+
+  .navbar-1 .links-2 {
+    padding: 1.5rem;
+  }
+
+  .play {
+    transform: translateY(-17rem);
+    margin-left: 17rem;
+  }
+
+  .section-one .section-image > h3 {
+    margin-top: -7rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-1 img {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-1 .links a {
+    justify-content: space-between;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+
+  .section-one .section-image {
+    background-image: url(./images/camera.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+  }
+
+  .play {
+    margin-left: 9rem;
+    margin-top: 3rem;
+  }
+
+  .section-one .section {
+    background-color: #00285c;
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+    padding-top: 2rem;
+  }
+
+  .section-one .section-image > h3 {
+    margin: 3rem 0;
+    padding-top: 4rem;
+    font-size: 1rem;
+    text-align: center;
+  }
 }

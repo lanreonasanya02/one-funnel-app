@@ -8,7 +8,7 @@ import play from "./images/play.png";
 
 const Navbar = () => {
   const countDown = () => {
-    const countDate = new Date("April 17, 2022 09:50:00").getTime();
+    const countDate = new Date("April 17, 2022 00:00:00").getTime();
     const today = new Date().getTime();
     const difference = countDate - today;
 
@@ -32,9 +32,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar-1">
         <div className="row">
-          <div className="col-md-6 text-center text-md-start logo">
+          <div className="col-md-6 text-center text-md-start logo ">
             <img src={logo} alt="logo" />
             <div className="links links-1">
               <a href="#">Members</a>
@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="col-md-6 links links-2 text-center text-md-end d-none d-lg-block">
+          <div className="col-md-6 links links-2 text-center text-md-end d-none d-lg-block fw-bold">
             <a href="#">Join</a>
             <a href="#">Members Login</a>
             <a href="#">Success Stories</a>
