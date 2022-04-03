@@ -26,16 +26,13 @@ header .image-1 {
   padding: 0 8rem;
 }
 
-.section-one .section {
-  background-color: #00285c;
-  margin-right: 1rem;
-  margin-left: 2rem;
-  padding: 2rem 1rem;
-}
-
 .section-one {
   margin-top: 1rem;
   width: 100%;
+}
+
+.section-one .section {
+  background-color: #00285c;
 }
 
 span {
@@ -46,7 +43,7 @@ span {
   display: flex;
   margin-top: 2rem;
   justify-content: space-around;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
 .timer h3 {
@@ -103,6 +100,11 @@ span {
     padding: 1.5rem;
   }
 
+  .section-one .section {
+    margin-left: 5rem;
+    padding: 2rem;
+  }
+
   .section-one .section-image + img {
     border: 2px solid red;
     margin-left: 1rem;
@@ -137,18 +139,18 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
+    margin-left: 1rem;
   }
 
   .play {
-    margin-left: 9rem;
+    margin-left: 9.5rem;
     margin-top: 3rem;
   }
 
   .section-one .section {
     background-color: #00285c;
-    margin: 0;
+    margin: 10rem 0 0 1rem;
     padding: 0;
-    margin-top: 10rem;
     padding-top: 2rem;
   }
 
