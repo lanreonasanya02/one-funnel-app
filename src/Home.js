@@ -5,6 +5,8 @@ import headerTwo from "./images/header-2.png";
 import sectionOne from "./images/section-one.png";
 import camera from "./images/camera.jpg";
 import play from "./images/play.png";
+import exclaim from "./images/exclaim.png";
+import man from "./images/man.jpg";
 
 const Home = () => {
   const countDown = () => {
@@ -134,6 +136,70 @@ const Home = () => {
           </div>
         </section>
       </article>
+
+      <main className="section-two">
+        <section className="row border border-3 border-outline-light">
+          <div className="col-md-4 image text-center d-none d-md-block">
+            <img src={exclaim} alt="exclamation-mark" />
+          </div>
+          <div className="col-md-7 col-12 text text-center px-5">
+            <div className="d-none d-md-block">
+              {" "}
+              <h1 className="head-1 display-5">Freedom Is Just</h1>
+              <h1 className="head-2 display-3">One Funnel Away</h1>
+            </div>
+            <div className="d-block d-md-none">
+              {" "}
+              <h1 className="head-2 display-2">Just One Funnel</h1>
+              <h1 className="head-1 display-5">Can Change Your Life</h1>
+            </div>
+          </div>
+
+          <div className="row mt-4 section-two-text ">
+            <div className="text-2 col-md-7 col-12 text-start ps-5">
+              <h4>
+                <span className="override names">From:</span> Russell Brunson
+              </h4>
+              <h4>
+                <span className="override names">Where:</span> Boise, Idaho
+              </h4>
+              <br />
+              <h4>
+                What does{" "}
+                <span className="override">
+                  'One Funnel Away' mean for you...?
+                </span>
+              </h4>
+              <br />
+              <h4>For everyone it's different...</h4>
+              <br />
+              <h4>
+                For some of you, <span>you're in a job that you hate</span>, and
+                you're trying to get out.
+              </h4>
+              <br />
+              <h4>
+                For others, you are entrepreneurs with your own company...{" "}
+                <span>but you're stuck</span>, and you're not sure why.
+              </h4>
+              <br />
+              <h4>
+                And for others of you, you're looking for that one funnel that
+                will help you to{" "}
+                <span className="override">have more impact on the world!</span>
+              </h4>
+              <br />
+              <h4>
+                Before I share with you MY GOAL for this 'One Funnel Away
+                challenge for YOU... let me ask you a few questions...
+              </h4>
+            </div>
+            <div className="image-2 col-md-5 col-12 text-center">
+              <img src={man} alt="russell" width="100%" />
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   );
 };
