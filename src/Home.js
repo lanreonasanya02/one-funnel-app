@@ -142,16 +142,16 @@ const Home = () => {
           <div className="col-md-4 image text-center d-none d-md-block">
             <img src={exclaim} alt="exclamation-mark" />
           </div>
-          <div className="col-md-7 col-12 text text-center px-5">
+          <div className="col-md-7 col-12 text ">
             <div className="d-none d-md-block">
               {" "}
               <h1 className="head-1 display-5">Freedom Is Just</h1>
               <h1 className="head-2 display-3">One Funnel Away</h1>
             </div>
-            <div className="d-block d-md-none">
+            <div className="d-block d-md-none ">
               {" "}
-              <h1 className="head-2 display-3">Just One Funnel</h1>
-              <h1 className="head-1 display-6">Can Change Your Life</h1>
+              <h1 className="head-2 display-2">Just One Funnel</h1>
+              <h1 className="head-1 display-5">Can Change Your Life</h1>
             </div>
           </div>
 

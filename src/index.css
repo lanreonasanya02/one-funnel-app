@@ -154,6 +154,7 @@ span {
     border-bottom: 2px solid gray;
     margin-top: 3rem;
     margin-bottom: 4rem;
+    text-align: center;
   }
 }
 
@@ -217,13 +218,10 @@ span {
   .section-two .text {
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin: 2rem 0 4rem;
+    /* margin-bottom: 4rem; */
+    text-align: center;
   }
-
-  /* .section-two-text {
-    width: 100%;
-  } */
 
   .section-two-text img {
     width: 50%;
