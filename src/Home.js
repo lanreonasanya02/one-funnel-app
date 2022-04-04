@@ -150,8 +150,8 @@ const Home = () => {
             </div>
             <div className="d-block d-md-none">
               {" "}
-              <h1 className="head-2 display-2">Just One Funnel</h1>
-              <h1 className="head-1 display-5">Can Change Your Life</h1>
+              <h1 className="head-2 display-3">Just One Funnel</h1>
+              <h1 className="head-1 display-6">Can Change Your Life</h1>
             </div>
           </div>
 
