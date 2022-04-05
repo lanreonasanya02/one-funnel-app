@@ -212,6 +212,16 @@ span {
     height: 80vh;
     margin: 0 2rem;
   }
+
+  .section-four-sub h4 {
+    text-align: start;
+    line-height: 3;
+  }
+
+  .section-four-sub h1 {
+    font-size: 6rem;
+    padding: 0 2rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -328,5 +338,15 @@ span {
   .section-four h4 span {
     text-decoration: none;
     color: #002462;
+  }
+
+  .section-four-sub h4 {
+    text-align: start;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-four-sub h1 {
+    font-size: 4rem;
+    padding: 0 1rem;
   }
 }

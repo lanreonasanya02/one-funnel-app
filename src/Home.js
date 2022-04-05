@@ -263,6 +263,14 @@ const Home = () => {
             materials during the challenge (more info on this below).
           </h4>
           <img src={money} alt="" width="100%" />
+          <div className="section-four-sub">
+            <h4>
+              With the One Funnel Away Challenge, we could easily charge $1,000
+              for the full 30 day challenge…
+            </h4>
+            <h4>Probably even $2,000, or more, but...</h4>
+            <h1 className="display-1">All You Pay Is $100! </h1>
+          </div>
         </section>
       </main>
     </>
