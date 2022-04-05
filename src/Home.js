@@ -7,6 +7,7 @@ import camera from "./images/camera.jpg";
 import play from "./images/play.png";
 import exclaim from "./images/exclaim.png";
 import man from "./images/man.jpg";
+import money from "./images/100dollars.jpg";
 
 const Home = () => {
   const countDown = () => {
@@ -248,6 +249,20 @@ const Home = () => {
               make sure it's a <strong>huge success!?!</strong>
             </h3>
           </div>
+        </section>
+
+        <section className="section-four text-center">
+          <h2 className="display-6">
+            If You Checked ANY Of The Boxes Above, Then I Want To Invite You To
+            Join The <strong>'One Funnel Away'</strong> Challenge{" "}
+            <span>And Change Your Business Forever!</span>
+          </h2>
+          <h1 className="display-2">So, Here Is How The Challenge Works...</h1>
+          <h4>
+            <span>The challenge costs $100 to join.</span> This covers your
+            materials during the challenge (more info on this below).
+          </h4>
+          <img src={money} alt="" width="100%" />
         </section>
       </main>
     </>
