@@ -134,6 +134,10 @@ span {
     padding-top: 3rem;
   }
 
+  .section-two section {
+    padding-top: 3rem;
+  }
+
   .section-two img {
     width: 60%;
   }
@@ -155,6 +159,33 @@ span {
     margin-top: 3rem;
     margin-bottom: 4rem;
     text-align: center;
+  }
+
+  .section-three {
+    margin: 3rem 6rem;
+    padding: 1rem 2rem;
+    border: 2px solid #b2d7fa;
+    background-color: #e4eff9;
+  }
+
+  .section-three h1 {
+    color: #002462;
+    font-weight: bolder;
+  }
+
+  .section-three .check-boxes {
+    margin-top: 1.5rem;
+    display: flex;
+  }
+
+  .section-three input {
+    margin-right: 1rem;
+    /* margin-bottom: 3rem; */
+  }
+
+  .section-three h4 {
+    text-decoration: none;
+    font-weight: lighter;
   }
 }
 
@@ -219,11 +250,38 @@ span {
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
     margin: 2rem 0 4rem;
-    /* margin-bottom: 4rem; */
     text-align: center;
   }
 
   .section-two-text img {
     width: 50%;
+  }
+
+  .section-three {
+    margin: 3rem 6rem;
+    padding: 1rem 2rem;
+    border: 4px solid #b2d7fa;
+    background-color: #e4eff9;
+  }
+
+  .section-three h1 {
+    color: #002462;
+    font-weight: bolder;
+    line-height: 0.9;
+  }
+
+  .section-three .check-boxes {
+    margin-top: 1.5rem;
+    display: flex;
+  }
+
+  .section-three input {
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .section-three h4 {
+    text-decoration: none;
+    font-weight: lighter;
   }
 }

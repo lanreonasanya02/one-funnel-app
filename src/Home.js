@@ -137,8 +137,8 @@ const Home = () => {
         </section>
       </article>
 
-      <main className="section-two">
-        <section className="row border border-3 border-outline-light">
+      <main className="section-two border border-1 border-outline-light">
+        <section className="row ">
           <div className="col-md-4 image text-center d-none d-md-block">
             <img src={exclaim} alt="exclamation-mark" />
           </div>
@@ -197,6 +197,56 @@ const Home = () => {
             <div className="image-2 col-md-5 col-12 text-center">
               <img src={man} alt="russell" width="100%" />
             </div>
+          </div>
+        </section>
+
+        <section className="section-three">
+          <h1 className="display-5 text-center">
+            Please Check All Of The Questions Where Your Answer Is YES!
+          </h1>
+          <div className="check-boxes">
+            <input type="checkbox" name="" id="" />
+            <h3>
+              Do you want to grow your business online, but you have{" "}
+              <span>NO IDEA where to start?</span>
+            </h3>
+          </div>
+          <div className="check-boxes">
+            <input type="checkbox" name="" id="" />
+            <h3>
+              Do you have a company that's been successful, but for some reason{" "}
+              <span>you're feeling stuck?</span>
+            </h3>
+          </div>
+          <div className="check-boxes">
+            <input type="checkbox" name="" id="" />
+            <h3>
+              Do you want <span>direct live access to experts</span> who can
+              help you with your funnels, strategy offer, marketing, sales, and
+              ANY question you have?{" "}
+            </h3>
+          </div>
+          <div className="check-boxes">
+            <input type="checkbox" name="" id="" />
+            <h3>
+              Are you trying to figure out a way to{" "}
+              <strong>reach more people</strong>, or have a{" "}
+              <span>bigger impact on the world?</span>
+            </h3>
+          </div>
+          <div className="check-boxes">
+            <input type="checkbox" name="" id="" />
+            <h3>
+              Are you <strong>convinced that you need a funnel</strong>, but you
+              aren't quite sure what steps to take?
+            </h3>
+          </div>
+          <div className="check-boxes">
+            <input type="checkbox" name="" id="" />
+            <h3>
+              Are you <span>about to launch your next funnel</span>, and want to
+              make sure it's a <strong>huge success!?!</strong>
+            </h3>
           </div>
         </section>
       </main>
