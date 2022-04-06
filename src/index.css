@@ -207,7 +207,7 @@ span {
     color: #002462;
   }
 
-  .section-four img {
+  .section-four .money-image {
     width: 80%;
     height: 80vh;
     margin: 0 2rem;
@@ -221,6 +221,26 @@ span {
   .section-four-sub h1 {
     font-size: 6rem;
     padding: 0 2rem;
+  }
+
+  .section-five h1 {
+    color: #002462;
+    font-weight: bolder;
+  }
+
+  .section-five .section-five-inner {
+    margin: 1.7rem 3rem;
+  }
+
+  .section-five .section-five-inner img {
+    width: 100%;
+    padding: 2rem 5rem;
+  }
+
+  .section-five-inner h2,
+  del {
+    color: #ff0005;
+    font-weight: bolder;
   }
 }
 
@@ -348,5 +368,32 @@ span {
   .section-four-sub h1 {
     font-size: 4rem;
     padding: 0 1rem;
+  }
+
+  .section-four .test1-image {
+    padding: 0 1rem;
+  }
+
+  .section-five h1 {
+    color: #002462;
+    font-weight: bolder;
+    padding: 1rem;
+    margin-top: -4rem;
+  }
+
+  /* .section-five .section-five-inner {
+    margin: 1.7rem 3rem;
+  } */
+
+  .section-five .section-five-inner img {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .section-five-inner h2,
+  del {
+    color: #ff0005;
+    font-weight: bolder;
+    font-size: 2rem;
   }
 }

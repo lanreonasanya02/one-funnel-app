@@ -8,6 +8,9 @@ import play from "./images/play.png";
 import exclaim from "./images/exclaim.png";
 import man from "./images/man.jpg";
 import money from "./images/100dollars.jpg";
+import womanTest from "./images/woman-test.png";
+import prices from "./images/prices.png";
+import pricesHead from "./images/prices-head.png";
 
 const Home = () => {
   const countDown = () => {
@@ -262,7 +265,12 @@ const Home = () => {
             <span>The challenge costs $100 to join.</span> This covers your
             materials during the challenge (more info on this below).
           </h4>
-          <img src={money} alt="" width="100%" />
+          <img
+            src={money}
+            alt="money-note"
+            width="100%"
+            className="money-image"
+          />
           <div className="section-four-sub">
             <h4>
               With the One Funnel Away Challenge, we could easily charge $1,000
@@ -270,6 +278,26 @@ const Home = () => {
             </h4>
             <h4>Probably even $2,000, or more, but...</h4>
             <h1 className="display-1">All You Pay Is $100! </h1>
+            <img
+              src={womanTest}
+              alt="testimonial"
+              width="100%"
+              className="test1-image"
+            />
+          </div>
+        </section>
+
+        <section className="section-five text-center">
+          <h1 className="display-4">
+            Then In Exchange For That Tiny $100 Investment, You Get ALL Of This:
+          </h1>
+          <div className="section-five-inner border border-3 border-dark">
+            <img src={pricesHead} alt="header" />
+            <img src={prices} alt="prices" />
+
+            <h2 className="display-2">
+              Total Value: <del>$3,126</del>
+            </h2>
           </div>
         </section>
       </main>
