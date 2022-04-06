@@ -14,7 +14,7 @@ import pricesHead from "./images/prices-head.png";
 
 const Home = () => {
   const countDown = () => {
-    const countDate = new Date("April 17, 2022 00:00:00").getTime();
+    const countDate = new Date("April 30, 2022 00:00:00").getTime();
     const today = new Date().getTime();
     const difference = countDate - today;
 
@@ -92,7 +92,7 @@ const Home = () => {
           </div>
           <div className="col-md-5 col-12 section text-center">
             <h3 className=" text-white">
-              The Next 'ONE FUNNEL AWAY' Challenge Starts On Apr 17th...
+              The Next 'ONE FUNNEL AWAY' Challenge Starts On Apr 30th...
             </h3>
             <img src={sectionOne} alt="section-image" width="100%" />
             <div className="timer text-white text-center">
@@ -115,7 +115,9 @@ const Home = () => {
             </div>
 
             <div className="last-section text-white mt-5">
-              <h3 className="heading">Registration Ends Apr 3rd At 10PM ET!</h3>
+              <h3 className="heading">
+                Registration Ends Apr 30th At 10PM ET!
+              </h3>
               <br />
               <h3 className="fw-bold">
                 Join The Challenge Now For A One-Time Discounted Payment Of Only
