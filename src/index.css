@@ -230,6 +230,7 @@ span {
 
   .section-five .section-five-inner {
     margin: 1.7rem 3rem;
+    padding: 0 3rem;
   }
 
   .section-five .section-five-inner img {
@@ -241,6 +242,29 @@ span {
   del {
     color: #ff0005;
     font-weight: bolder;
+  }
+
+  .section-five-inner .second-h3 {
+    color: #002462;
+    font-weight: bold;
+  }
+
+  .section-five-inner button {
+    width: 100%;
+    background-color: #e84d35;
+    color: #fff;
+    border-style: none;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+  }
+
+  .section-five-inner button:hover {
+    background-color: #d45845;
+  }
+
+  .section-five-inner button h3 {
+    font-weight: bold;
   }
 }
 
@@ -395,5 +419,42 @@ span {
     color: #ff0005;
     font-weight: bolder;
     font-size: 2rem;
+  }
+
+  .section-five-inner .second-h3 {
+    color: #002462;
+    font-weight: bold;
+  }
+
+  .section-five-inner h1 {
+    margin-top: -1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .section-five-inner h3 {
+    padding: 0 2rem;
+    font-size: 1.3rem;
+  }
+
+  .section-five-inner button {
+    background-color: #e84d35;
+    color: #fff;
+    border-style: none;
+    margin-bottom: 1rem;
+    padding: 0.8rem 0.5rem;
+    font-weight: bold;
+  }
+
+  .section-five-inner button:hover {
+    background-color: #d45845;
+  }
+
+  .section-five-inner button h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .section-five-inner button p {
+    font-size: 12px;
   }
 }

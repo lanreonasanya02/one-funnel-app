@@ -300,6 +300,36 @@ const Home = () => {
             <h2 className="display-2">
               Total Value: <del>$3,126</del>
             </h2>
+
+            <h3 className="mt-2 px-5">
+              If you want to get your funnel LIVE and start building your
+              business, then{" "}
+              <span>
+                <i>this</i>
+              </span>{" "}
+              is the mission we’re giving you...
+            </h3>
+            <h3 className="mt-4 second-h3">
+              You have 30 Days, starting Apr 30th...
+            </h3>
+            <h1 className="display-1">
+              Do <span>YOU</span> Accept?
+            </h1>
+            <button className="d-none d-md-inline">
+              <h3 className="display-3">Join The Challenge Now!</h3>
+              <h4>
+                I Want Daily LIVE Coaching and Accountability, From Day 1 to Day
+                30
+              </h4>
+            </button>
+
+            <button className="d-inline d-md-none">
+              <h3>Start Now!</h3>
+              <p>
+                I Want Daily LIVE Coaching and Accountability, From Day 1 to Day
+                30
+              </p>
+            </button>
           </div>
         </section>
       </main>
