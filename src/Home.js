@@ -323,7 +323,7 @@ const Home = () => {
               </h4>
             </button>
 
-            <button className="d-inline d-md-none">
+            <button className="d-inline d-md-none mx-4">
               <h3>Start Now!</h3>
               <p>
                 I Want Daily LIVE Coaching and Accountability, From Day 1 to Day
