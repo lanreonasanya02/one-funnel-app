@@ -366,13 +366,13 @@ span {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 38vh;
     margin-left: 0.7rem;
   }
 
   .play {
-    margin-left: 9.5rem;
-    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-top: 6rem;
   }
 
   .section-one .section {
