@@ -11,6 +11,10 @@ import money from "./images/100dollars.jpg";
 import womanTest from "./images/woman-test.png";
 import prices from "./images/prices.png";
 import pricesHead from "./images/prices-head.png";
+import russelCrypto from "./images/ofa-small.png";
+import laptop from "./images/laptop.png";
+import laptopPhone from "./images/laptop-phone.png";
+import laptopWoman from "./images/laptop-woman.png";
 
 const Home = () => {
   const countDown = () => {
@@ -331,8 +335,153 @@ const Home = () => {
               </p>
             </button>
           </div>
+          <div className="section-five-third">
+            <h1 className="display-4">
+              Need More Information Before You Make Your Decision...?{" "}
+            </h1>
+
+            <h3 className="display-6">
+              Let Me Break Down All The Awesome Stuff You'll Get When You Join
+              The Challenge Today!
+            </h3>
+          </div>
+        </section>
+
+        <section className="section-six">
+          <div className="row">
+            <div className="col-md-4">
+              <img src={russelCrypto} alt="crypto-image" width="100%" />
+            </div>
+
+            <div className="col-md-8 text-white ">
+              <h3>
+                The First Thing{" "}
+                <strong>
+                  You’ll <span>Get Access</span> To Is The...
+                </strong>
+              </h3>
+              <h2 className="display-4">'One Funnel Away' </h2>
+              <h1 className="display-1">CHALLENGE...</h1>
+            </div>
+          </div>
+
+          <h5 className="text-center mx-5">
+            Led by Trainer{" "}
+            <strong>
+              Russell Brunson and The ‘One Funnel Away’ Consulting Team,
+            </strong>{" "}
+            this challenge is designed to help you <strong>Customize</strong>{" "}
+            and{"  "}
+            <strong>
+              <span>IMPLEMENT</span>
+            </strong>{" "}
+            your first (or next) funnel in just 30 days…
+          </h5>
+
+          <section className="row text-center section-seven">
+            <div className="col-md-4 bg-white ">
+              <div className="card card-1">
+                <h3 className="display-6">Step #1</h3>
+                <img src={laptop} className="card-img-top" alt="laptop" />
+                <div className="card-body card-1">
+                  <h5 className="card-title">"The Strategy"</h5>
+                  <p className="card-text lead">
+                    Each day, you will receive{" "}
+                    <span>a new mission from Russell</span>, streamed to the
+                    private Facebook group.
+                  </p>
+                  <p className="card-text lead">
+                    These private videos will be about 30 minutes long, and will
+                    give you the <span>strategy</span> you have to master for
+                    each step you need for success.{" "}
+                  </p>
+                  <p className="card-text lead">
+                    You will have the ability to network with and ask questions
+                    to our coaches as well as others OFA-ers who are also going
+                    through the challenge with you!
+                  </p>
+                  <br />
+                  <br />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 bg-white  ">
+              <div className="card card-2">
+                <h3 className="display-6">Step #2</h3>
+                <img src={laptopPhone} className="card-img-top" alt="laptop" />
+                <div className="card-body card-2">
+                  <h5 className="card-title">"The Tactics"</h5>
+                  <p className="card-text lead">
+                    After the stream ends in the Facebook group, you will be
+                    given a <b>"One Pager" mission document</b> with the exact
+                    step by step tactics you need to implement to complete that
+                    step.
+                  </p>
+                  <p className="card-text lead">
+                    There will be videos showing{" "}
+                    <span>HOW to implement the strategy</span> as well as a
+                    digital workbook to help keep everything clear!
+                  </p>
+                  <p className="card-text lead">
+                    These missions will take between 30-60 minutes to complete
+                    each day.
+                  </p>
+                  <br />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 bg-white ">
+              <div className="card card-3">
+                <h3 className="display-6">Step #3</h3>
+                <img src={laptopWoman} className="card-img-top" alt="laptop" />
+                <div className="card-body card-3">
+                  <h5 className="card-title">"Implementation"</h5>
+                  <p className="card-text lead">
+                    Not only do you get 30 days of daily video coaching and
+                    accountability…
+                  </p>
+                  <p className="card-text lead">
+                    You also <strong>LIVE TRAINING SESSIONS DAILY</strong>{" "}
+                    Monday - Friday with our expert OFA consultants.
+                  </p>
+                  <p className="card-text lead">
+                    On these special live trainings, you get to pick their
+                    brains and ask ANY question you have about your funnels,
+                    strategies, your offer, tech challenges, you name it.
+                  </p>
+                  <p className="card-text lead fw-bold">
+                    It’s like having your very own DEDICATED SUPPORT TEAM.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
       </main>
+
+      <footer className="mt-5 text-center p-5">
+        <img src={logo} alt="logo" />
+        <br />
+        <br />
+        <div className="links links-2 text-center ">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Support</a>
+          <a href="#">Cookie Preferences</a>
+        </div>
+        <br />
+        <p>
+          California residents can obtain information about the categories of
+          personal information collected, and the business purposes for which
+          the information is collected, by clicking here.
+        </p>
+        <p>
+          © 2022 ETISON LLC - All Rights Reserved - 3443 W Bavaria St, Eagle, ID
+          83616
+        </p>
+      </footer>
     </>
   );
 };

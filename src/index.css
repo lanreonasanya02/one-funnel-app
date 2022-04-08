@@ -180,7 +180,6 @@ span {
 
   .section-three input {
     margin-right: 1rem;
-    /* margin-bottom: 3rem; */
   }
 
   .section-three h4 {
@@ -266,6 +265,88 @@ span {
   .section-five-inner button h3 {
     font-weight: bold;
   }
+
+  .section-five-third h3 {
+    color: #002462;
+    text-align: center;
+    margin: 0 5rem;
+  }
+
+  .section-six {
+    border: 5px solid #ff0005;
+    margin: 2rem 0;
+    padding: 0 2rem;
+  }
+
+  .section-six div {
+    background-color: #e84d35;
+    padding: 1rem 1rem;
+    margin: -1rem 0 1rem;
+  }
+
+  .section-six img {
+    width: 100%;
+  }
+
+  .section-six h2,
+  .section-six h1 {
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  .section-six h1 {
+    font-size: 5.5rem;
+    line-height: 1;
+  }
+
+  .section-seven .card-2 img {
+    width: 70%;
+    margin-left: 4rem;
+  }
+
+  .section-seven .card-1,
+  .section-seven .card-2,
+  .section-seven .card-3 {
+    background-color: #efefef;
+  }
+
+  .section-seven p {
+    text-align: start;
+  }
+
+  .section-seven .card-title {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 1rem 0;
+    font-style: italic;
+    font-weight: bold;
+    color: #002462;
+  }
+
+  .section-seven h3 {
+    font-weight: bolder;
+    color: #002462;
+  }
+
+  footer {
+    margin: 3rem 0 -0.5rem;
+    background-color: #002462;
+    color: #fff;
+  }
+
+  footer img {
+    width: 20%;
+  }
+
+  footer a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -291,7 +372,7 @@ span {
 
   .play {
     margin-left: 9.5rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .section-one .section {
@@ -405,9 +486,9 @@ span {
     margin-top: -4rem;
   }
 
-  /* .section-five .section-five-inner {
-    margin: 1.7rem 3rem;
-  } */
+  .section-five .section-five-inner {
+    margin-bottom: 6rem;
+  }
 
   .section-five .section-five-inner img {
     width: 100%;
@@ -456,6 +537,88 @@ span {
   }
 
   .section-five-inner button p {
+    font-size: 12px;
+  }
+
+  .section-five-third h3 {
+    color: #002462;
+    text-align: center;
+    margin: 0 3rem;
+  }
+
+  .section-six {
+    border: 5px solid #ff0005;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .section-six div {
+    background-color: #e84d35;
+    padding: 1rem 1rem;
+    margin: -1rem 0 1rem;
+  }
+
+  .section-six img {
+    width: 100%;
+  }
+
+  .section-six h2,
+  .section-six h1 {
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  .section-six h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .section-seven .card-2 img {
+    width: 70%;
+    margin-left: 4rem;
+  }
+
+  .section-seven .card-1,
+  .section-seven .card-2,
+  .section-seven .card-3 {
+    background-color: #efefef;
+  }
+
+  .section-seven p {
+    text-align: start;
+  }
+
+  .section-seven .card-title {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 1rem 0;
+    font-style: italic;
+    font-weight: bold;
+    color: #002462;
+  }
+
+  .section-seven h3 {
+    font-weight: bolder;
+    color: #002462;
+  }
+
+  footer {
+    margin: 3rem 0 -0.5rem;
+    background-color: #002462;
+    color: #fff;
+  }
+
+  footer img {
+    width: 50%;
+  }
+
+  footer a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  footer p {
     font-size: 12px;
   }
 }
